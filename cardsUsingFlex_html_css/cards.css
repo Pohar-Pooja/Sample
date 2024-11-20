@@ -1,0 +1,60 @@
+*
+{
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+header{
+    background-color: rgb(135, 193, 235);
+    color:white;
+    text-align: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+img{
+    width:200px;
+    height:250px;
+}
+img:active{
+    width:200px;
+    height:295px;
+}
+.card{
+    width: 200px;
+    height:300px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black; 
+    text-align: centre;
+    box-shadow:3px 3px 3px black;
+}
+.card{
+    width:200px;
+    height:295px;
+    box-shadow:3px 3px 3px black;
+}
+p{
+    font-weight: 700px;
+    color:slateblue;
+}
+.original-price{
+    font-weight: 300px;
+    text-decoration: line-through;
+    font-size: 14px;
+    color:grey;
+}
+.discount{
+    color:darkgreen;
+    font-size: 13px;
+}
+ .mens{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height:700px;
+    align-content: space-around;
+} 
